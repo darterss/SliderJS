@@ -1,0 +1,120 @@
+*{
+    font-family: "Nunito Sans", Arial, sans-serif;
+    margin: 0;
+    color: inherit;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+hr{
+    display: inline-block;
+    width: 92px;
+    border-style: solid;
+    margin-left: 40px;
+    margin-bottom: 0.3em;
+}
+
+.section{
+    background-color: #131313;
+    height: 783px;
+    display: flex;
+}
+
+.container{
+    display: flex;
+    align-items: flex-start;
+    margin: 0 90px 0 134px;
+    width: inherit;
+    flex-direction: column;
+}
+
+.subtitle{
+    margin-top: 176px;
+    font-family: 'Yeseva One', 'Times New Roman', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.paragraph{
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-top: 1em;
+}
+
+.grid-container{
+    width: 430px;
+    display: grid;
+    grid-template: auto auto / auto auto;
+}
+
+.subtitle-h3{
+    font-family: 'Yeseva One', 'Times New Roman', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+    margin-top: 42px;
+}
+
+.par-smaller13{
+    font-size: 13px;
+    line-height: 21px;
+    margin-top: 9px;
+}
+
+.arrows{
+    display: flex;
+    margin-top: 85px;
+}
+
+.dots{
+    margin: 0 30px;
+}
+
+.dot:nth-last-child(n+2){
+    margin-right: 18px;
+}
+
+.dot{
+    cursor: pointer;
+}
+
+.menu-h4{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 107px;
+    margin-right: 50px;
+}
+
+.div-image{
+    margin-top: 50px;
+}
+
+.subtitle-h4{
+    font-family: 'Yeseva One', 'Times New Roman', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+
+.active{
+    color: #E3B873;
+    border-bottom: 1px #E3B873 solid;
+    line-height: 29px;
+}
+
+#next-slide, #prev-slide{
+    cursor: pointer;
+}
